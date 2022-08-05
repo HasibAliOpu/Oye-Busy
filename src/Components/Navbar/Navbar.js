@@ -6,7 +6,7 @@ import cart from "../../images/icon/cart.svg";
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-[#F6F6F6] text-neutral px-8 py-0">
+    <div class="navbar bg-[#F6F6F6] text-neutral px-8 py-0 shadow-xl">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
