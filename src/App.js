@@ -10,6 +10,7 @@ import DiscountPart from "./Components/DiscountPart/DiscountPart";
 import ElectricianServices from "./Components/ElectricianServices/ElectricianServices";
 import Navbar from "./Components/Navbar/Navbar";
 import PlumberServices from "./Components/PlumberServices/PlumberServices";
+import ReferSection from "./Components/ReferSection/ReferSection";
 import SafeServices from "./Components/SafeServices/SafeServices";
 import TrendingServices from "./Components/TrendingServices/TrendingServices";
 
@@ -29,6 +30,7 @@ function App() {
       <CarpenterServices />
       <AboutUs />
       <CustomerReviews />
+      <ReferSection />
     </div>
   );
 }
