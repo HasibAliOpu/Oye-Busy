@@ -2,6 +2,7 @@ import "./App.css";
 import AppliancesServices from "./Components/AppliancesServices/AppliancesServices";
 import AssuredPart from "./Components/AssurdPart/AssuredPart";
 import Banner from "./Components/Banner/Banner";
+import CarpenterServices from "./Components/CarpenterServices/CarpenterServices";
 import DayServices from "./Components/DayServices/DayServices";
 import DiscountPart from "./Components/DiscountPart/DiscountPart";
 import ElectricianServices from "./Components/ElectricianServices/ElectricianServices";
@@ -23,6 +24,7 @@ function App() {
       <DiscountPart />
       <ElectricianServices />
       <PlumberServices />
+      <CarpenterServices />
     </div>
   );
 }
