@@ -21,7 +21,7 @@ module.exports = {
 
           warning: "#EBC21E",
 
-          error: "#E97667",
+          error: "#A90000",
         },
       },
     ],
