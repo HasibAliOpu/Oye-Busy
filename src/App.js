@@ -1,4 +1,5 @@
 import "./App.css";
+import AssuredPart from "./Components/AssurdPart/AssuredPart";
 import Banner from "./Components/Banner/Banner";
 import DayServices from "./Components/DayServices/DayServices";
 import Navbar from "./Components/Navbar/Navbar";
@@ -13,6 +14,7 @@ function App() {
       <TrendingServices />
       <DayServices />
       <SafeServices />
+      <AssuredPart />
     </div>
   );
 }
