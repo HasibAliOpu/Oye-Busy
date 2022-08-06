@@ -6,28 +6,28 @@ import cart from "../../images/icon/cart.svg";
 
 const Navbar = () => {
   return (
-    <div class="navbar sticky top-0 z-50 bg-[#F6F6F6] text-neutral px-8 py-0 shadow-xl">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
+    <div className="navbar sticky top-0 z-50 bg-[#F6F6F6] text-neutral px-8 py-0 shadow-xl">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex="0" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
               />
             </svg>
           </label>
           <ul
-            tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            tabIndex="0"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
               <a>Blog</a>
@@ -35,11 +35,11 @@ const Navbar = () => {
             <li>
               <a>Career</a>
             </li>
-            <li tabindex="0">
-              <a class="justify-between">
+            <li tabIndex="0">
+              <a className="justify-between">
                 My Account
                 <svg
-                  class="fill-current"
+                  className="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -48,7 +48,7 @@ const Navbar = () => {
                   <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                 </svg>
               </a>
-              <ul class="p-2">
+              <ul className="p-2">
                 <li>
                   <a>Edit Profile</a>
                 </li>
@@ -59,27 +59,27 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a href="/" class="btn btn-ghost normal-case text-xl">
+        <a href="/" className="btn btn-ghost normal-case text-xl">
           <img src={navicon} alt="" />
         </a>
-        <div class="navbar hidden lg:flex">
+        <div className="navbar hidden lg:flex">
           <img src={location} alt="location" className="w-8" />
           <p className="font-mono font-bold text-sm  tracking-tighter">
             1st Floor, H356, Block B, Sector 22, Noida, Uttar Pradesh 201301
           </p>
         </div>
       </div>
-      <div class="navbar-end  font-semibold hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
+      <div className="navbar-end  font-semibold hidden lg:flex">
+        <ul className="menu menu-horizontal p-0">
           <li>
             <a>Blog</a>
             <a>Career</a>
           </li>
-          <li tabindex="0">
+          <li tabIndex="0">
             <a>
               My Account
               <svg
-                class="fill-current"
+                className="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="20"
@@ -88,7 +88,7 @@ const Navbar = () => {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </a>
-            <ul class="p-2 bg-orange-300 font-semibold">
+            <ul className="p-2 bg-orange-300 font-semibold">
               <li>
                 <a>Edit Profile</a>
               </li>

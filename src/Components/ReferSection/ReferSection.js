@@ -19,9 +19,9 @@ const ReferSection = () => {
             <input
               type="text"
               placeholder="Enter your 10 digit mobile number"
-              class="input input-bordered lg:w-screen w-full"
+              className="input input-bordered  w-full"
             />
-            <span className="absolute top-2 right-2 lg:right-32 pr-1">
+            <span className="absolute top-2 right-2 pr-1">
               <button className="btn btn-sm border-none hover:bg-white bg-[#F2C19D85]">
                 <img src={arrow} alt="" />
               </button>
@@ -42,7 +42,7 @@ const ReferSection = () => {
         </div>
       </div>
       <div className="flex items-end gap-5">
-        <img className="ml-2 w-1/2 lg:w-full" src={bigPhone} alt="" />
+        <img className="ml-2 w-1/2" src={bigPhone} alt="" />
         <img className="h-1/2" src={smallPhone} alt="" />
       </div>
     </div>

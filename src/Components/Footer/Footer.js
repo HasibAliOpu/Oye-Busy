@@ -9,7 +9,7 @@ import twitter from "../../images/icon/twitter.png";
 
 const Footer = () => {
   return (
-    <footer class="footer footer-center text-start p-10 bg-[#343434] text-white">
+    <footer className="hidden lg:block footer text-center  p-10 bg-[#343434] text-white">
       <div className="flex gap-10 font-semibold">
         <p>RELATED SERVICES</p>
         <div className="px-6">
@@ -31,7 +31,7 @@ const Footer = () => {
           <span className="pl-2">Home Deep Cleaning</span>
         </div>
       </div>
-      <div className="flex gap-10 font-semibold">
+      <div className="flex gap-10 my-10 font-semibold">
         <p>TOP LOCATIONS</p>
         <div className="px-6">
           <span className="border-r-2 px-2">Delhi</span>
@@ -42,7 +42,7 @@ const Footer = () => {
           <span className="pl-2">Greater Noida</span>
         </div>
       </div>
-      <div className="flex gap-10 text-lg font-semibold">
+      <div className="flex gap-10 my-10 text-lg font-semibold">
         <span>About Us </span>
         <span>Blog</span>
         <span>Near me</span>
@@ -52,7 +52,7 @@ const Footer = () => {
         <span>Offers & Gift Cards</span>
         <span>Contact Us</span>
       </div>
-      <div className="flex gap-12">
+      <div className="flex justify-center gap-12">
         <div className="">
           <h1 className="text-[#2AEAEE] font-semibold">Contact Us</h1>
           <p>Phone: +919990001089</p>
@@ -73,8 +73,8 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div>
-        <div class="grid grid-flow-col gap-7">
+      <div className="">
+        <div className="grid grid-flow-col mx-auto my-10 gap-7">
           <img src={twitter} alt="" />
           <img src={facebook} alt="" />
           <img src={youtube} alt="" />
@@ -82,9 +82,9 @@ const Footer = () => {
           <img src={Instagram} alt="" />
           <img src={point} alt="" />
         </div>
-        <span className="py-10 tracking-wider">
+        <div className="py-10 tracking-wider mx-auto">
           © 2022 OyeBusy Technologies Pvt. Ltd.
-        </span>
+        </div>
       </div>
     </footer>
   );

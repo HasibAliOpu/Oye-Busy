@@ -8,7 +8,7 @@ const TrendingServices = () => {
   return (
     <div>
       <div className="text-center mt-14">
-        <h1 className="lg:text-2xl lg:text-5xl font-semibold text-[#025B5D]">
+        <h1 className="text-2xl lg:text-5xl font-semibold text-[#025B5D]">
           Trending Services
         </h1>
         <p className="lg:text-xl font-semibold pt-2">Premium Home Services</p>
