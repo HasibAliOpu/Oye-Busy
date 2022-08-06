@@ -1,4 +1,5 @@
 import "./App.css";
+import AppliancesServices from "./Components/AppliancesServices/AppliancesServices";
 import AssuredPart from "./Components/AssurdPart/AssuredPart";
 import Banner from "./Components/Banner/Banner";
 import DayServices from "./Components/DayServices/DayServices";
@@ -15,6 +16,7 @@ function App() {
       <DayServices />
       <SafeServices />
       <AssuredPart />
+      <AppliancesServices />
     </div>
   );
 }
