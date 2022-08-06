@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutUs from "./Components/AboutUs/AboutUs";
 import AppliancesServices from "./Components/AppliancesServices/AppliancesServices";
 import AssuredPart from "./Components/AssurdPart/AssuredPart";
 import Banner from "./Components/Banner/Banner";
@@ -25,6 +26,7 @@ function App() {
       <ElectricianServices />
       <PlumberServices />
       <CarpenterServices />
+      <AboutUs />
     </div>
   );
 }
