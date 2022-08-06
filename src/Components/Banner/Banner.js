@@ -17,8 +17,8 @@ import pestControl from "../../images/icon/pestControl.png";
 import carpenter from "../../images/icon/carpenter.png";
 const Banner = () => {
   return (
-    <div className="grid grid-cols-2">
-      <div className="relative">
+    <div className="grid  lg:grid-cols-2">
+      <div className="relative hidden lg:block">
         <img src={banner} alt="" />
         <div className="absolute top-28 left-28">
           <h1 className="text-white text-center text-6xl font-serif tracking-wider">
@@ -57,58 +57,82 @@ const Banner = () => {
           </p>
         </div>
       </div>
-      <div>
-        <h1 className="text-center text-4xl font-semibold py-3">
+      <div className="">
+        <h1 className="text-center text-xl lg:text-4xl font-semibold py-3">
           What are your looking for?
         </h1>
         <div className="grid grid-cols-4 pl-10">
           <span className="my-3">
-            <img className="w-14 pb-1" src={saloon} alt="" />
-            <p className="font-semibold">Salon at Home</p>
+            <img className="w-8 lg:w-14 pb-1" src={saloon} alt="" />
+            <p className="text-xs lg:text-base lg:font-semibold">
+              Salon at Home
+            </p>
           </span>
           <span className="my-3">
-            <img className="w-14 pb-2" src={electrician} alt="" />
-            <p className="font-semibold">Electrician</p>
+            <img className="w-8 lg:w-14 pb-2" src={electrician} alt="" />
+            <p className="text-xs lg:text-base lg:font-semibold">Electrician</p>
           </span>
           <span className="my-3">
-            <img className="w-24 py-2" src={plumber} alt="" />
-            <p className="font-semibold">Plumber</p>
+            <img className="w-8 lg:w-24 py-2" src={plumber} alt="" />
+            <p className="text-xs lg:text-base lg:font-semibold">Plumber</p>
           </span>
           <span className="my-3">
-            <img className="w-16 pb-2" src={cctv} alt="" />
-            <p className="font-semibold">CCTV</p>
+            <img className="w-8 lg:w-16 pb-2" src={cctv} alt="" />
+            <p className="text-xs lg:text-base lg:font-semibold">CCTV</p>
           </span>
           <span>
-            <img className="w-20 py-4" src={ac} alt="" />
-            <p className="font-semibold">AC Service</p>
+            <img className="w-8 lg:w-20 py-4" src={ac} alt="" />
+            <p className="text-xs lg:text-base lg:font-semibold">AC Service</p>
           </span>
           <span>
-            <img className="w-16 py-3" src={truck} alt="" />
-            <p className="font-semibold">Packers & Movers</p>
+            <img className="w-8 lg:w-16 py-3" src={truck} alt="" />
+            <p className="text-xs lg:text-base lg:font-semibold">
+              Packers & Movers
+            </p>
           </span>
           <span>
-            <img className="w-12 pt-2 pb-1" src={cleaning} alt="" />
-            <p className="font-semibold">Cleaning</p>
+            <img className="w-8 lg:w-12 pt-2 pb-1" src={cleaning} alt="" />
+            <p className="text-xs lg:text-base lg:font-semibold">Cleaning</p>
           </span>
           <span>
-            <img className="w-12 pt-2" src={painting} alt="" />
-            <p className="font-semibold">House Painting</p>
+            <img className="w-8 lg:w-12 pt-2" src={painting} alt="" />
+            <p className="text-xs lg:text-base lg:font-semibold">
+              House Painting
+            </p>
           </span>
           <span className="pt-5">
-            <img className="w-12 pt-4 ml-6 pb-2" src={appliances} alt="" />
-            <p className="font-semibold">Home Appliances</p>
+            <img
+              className="w-8 lg:w-12 pt-4 ml-6 pb-2"
+              src={appliances}
+              alt=""
+            />
+            <p className="text-xs lg:text-base lg:font-semibold">
+              Home Appliances
+            </p>
           </span>
           <span className="pt-5">
-            <img className="w-12 ml-4 pt-2 pb-1" src={disinfection} alt="" />
-            <p className="font-semibold">Disinfection</p>
+            <img
+              className="w-8 lg:w-12 ml-4 pt-2 pb-1"
+              src={disinfection}
+              alt=""
+            />
+            <p className="text-xs lg:text-base lg:font-semibold">
+              Disinfection
+            </p>
           </span>
           <span className="pt-5">
-            <img className="w-12 ml-4 pt-3 pb-1" src={pestControl} alt="" />
-            <p className="font-semibold">Pest Control</p>
+            <img
+              className="w-8 lg:w-12 ml-4 pt-3 pb-1"
+              src={pestControl}
+              alt=""
+            />
+            <p className="text-xs lg:text-base lg:font-semibold">
+              Pest Control
+            </p>
           </span>
           <span className="pt-5">
-            <img className="w-14 pt-2 pb-1" src={carpenter} alt="" />
-            <p className="font-semibold">Carpenter</p>
+            <img className="w-8 lg:w-14 pt-2 pb-1" src={carpenter} alt="" />
+            <p className="text-xs lg:text-base lg:font-semibold">Carpenter</p>
           </span>
         </div>
 

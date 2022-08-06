@@ -6,7 +6,7 @@ import cart from "../../images/icon/cart.svg";
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-[#F6F6F6] text-neutral px-8 py-0 shadow-xl">
+    <div class="navbar sticky top-0 z-50 bg-[#F6F6F6] text-neutral px-8 py-0 shadow-xl">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -30,11 +30,14 @@ const Navbar = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <a>Blog</a>
+            </li>
+            <li>
+              <a>Career</a>
             </li>
             <li tabindex="0">
               <a class="justify-between">
-                Parent
+                My Account
                 <svg
                   class="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,15 +50,12 @@ const Navbar = () => {
               </a>
               <ul class="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Edit Profile</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Setting</a>
                 </li>
               </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
             </li>
           </ul>
         </div>
@@ -69,7 +69,7 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-      <div class="navbar-end  font-semibold">
+      <div class="navbar-end  font-semibold hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
           <li>
             <a>Blog</a>
