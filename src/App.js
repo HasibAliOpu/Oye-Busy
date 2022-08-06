@@ -8,6 +8,7 @@ import CustomerReviews from "./Components/CustomerReviews/CustomerReviews";
 import DayServices from "./Components/DayServices/DayServices";
 import DiscountPart from "./Components/DiscountPart/DiscountPart";
 import ElectricianServices from "./Components/ElectricianServices/ElectricianServices";
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import PlumberServices from "./Components/PlumberServices/PlumberServices";
 import ReferSection from "./Components/ReferSection/ReferSection";
@@ -33,6 +34,7 @@ function App() {
       <CustomerReviews />
       <ReferSection />
       <StampSection />
+      <Footer />
     </div>
   );
 }
