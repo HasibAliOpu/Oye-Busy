@@ -12,6 +12,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import PlumberServices from "./Components/PlumberServices/PlumberServices";
 import ReferSection from "./Components/ReferSection/ReferSection";
 import SafeServices from "./Components/SafeServices/SafeServices";
+import StampSection from "./Components/StampSection/StampSection";
 import TrendingServices from "./Components/TrendingServices/TrendingServices";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <AboutUs />
       <CustomerReviews />
       <ReferSection />
+      <StampSection />
     </div>
   );
 }
